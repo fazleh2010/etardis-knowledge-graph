@@ -1,0 +1,69 @@
+version: "3.5"
+
+services:
+    etardis-graph:
+        build:
+            context: ./src/crawling
+            args:
+                - DB_HTTP_PORT
+        ports:
+            - "${DB_HTTP_PORT}:${DB_HTTP_PORT}"
+            - "${DB_BOLT_PORT}:${DB_BOLT_PORT}"
+        volumes:
+            - ./data/neo4j_data:/data
+        environment:
+            - DB_HTTP_PORT
+            - DB_BOLT_PORT
+            - NEO4J_dbms_memory_pagecache_size
+            - NEO4J_AUTH=${NEO4J_USER}/${NEO4J_PASSWD}
+        restart: on-failure
+        networks:
+            - etardis-network
+
+    etardis-api:
+        build: 
+            context: ./src/api
+            args:
+                - API_HTTP_PORT
+                - DB_HTTP_PORT
+        depends_on:
+            - etardis-graph
+        links:
+            - etardis-graph
+        ports:
+            - "${API_HTTP_PORT}:${API_HTTP_PORT}"
+        volumes:
+            - ./data:/data
+        expose:
+            - "${API_HTTP_PORT}"
+        environment:
+            - FLASK_APP
+            - FLASK_ENV
+            - FLASK_DEBUG
+            - API_HTTP_PORT
+            - NEO4J_URL
+            - DB_BOLT_PORT
+            - NEO4J_USER
+            - NEO4J_PASSWD
+        restart: on-failure
+        networks:
+            - etardis-network
+
+    etardis-frontend:
+        build: 
+            context: ./src/frontend
+            args:
+                - API_HTTP_PORT
+                - ETARDIS_HTTP_PORT
+        depends_on:
+            - etardis-api
+        ports:
+            - "${ETARDIS_HTTP_PORT}:${ETARDIS_HTTP_PORT}"
+        restart: on-failure
+        networks:
+            - etardis-network
+
+networks:
+    etardis-network:
+
+

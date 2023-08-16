@@ -1,0 +1,279 @@
+Africa	002		
+Northern Africa	015		
+Algeria	012	DZA 	
+Egypt	818	EGY 	
+Libya	434	LBY 	
+Morocco	504	MAR 	
+Sudan	729	SDN
+Tunisia	788	TUN 	
+Western Sahara	732	ESH 	
+Sub-Saharan Africa	202		
+Eastern Africa	014		
+British Indian Ocean Territory	086	IOT 	
+Burundi	108	BDI
+Comoros	174	COM
+Djibouti	262	DJI
+Eritrea	232	ERI
+Ethiopia	231	ETH
+French Southern Territories	260	ATF 	
+Kenya	404	KEN 	
+Madagascar	450	MDG
+Malawi	454	MWI
+Mauritius	480	MUS 
+Mayotte	175	MYT 	
+Mozambique	508	MOZ
+Réunion	638	REU 	
+Rwanda	646	RWA
+Seychelles	690	SYC 
+Somalia	706	SOM
+South Sudan	728	SSD
+Uganda	800	UGA
+United Republic of Tanzania	834	TZA
+Zambia	894	ZMB
+Zimbabwe	716	ZWE
+Middle Africa	017		
+Angola	024	AGO
+Cameroon	120	CMR 	
+Central African Republic	140	CAF
+Chad	148	TCD
+Congo	178	COG 	
+Democratic Republic of the Congo	180	COD
+Equatorial Guinea	226	GNQ 	
+Gabon	266	GAB 	
+Sao Tome and Principe	678	STP
+Southern Africa	018		
+Botswana	072	BWA
+Eswatini	748	SWZ
+Lesotho	426	LSO
+Namibia	516	NAM 	
+South Africa	710	ZAF 	
+Western Africa	011		
+Benin	204	BEN
+Burkina Faso	854	BFA
+Cabo Verde	132	CPV 
+Côte d’Ivoire	384	CIV 	
+Gambia	270	GMB
+Ghana	288	GHA 	
+Guinea	324	GIN
+Guinea-Bissau	624	GNB
+Liberia	430	LBR
+Mali	466	MLI
+Mauritania	478	MRT
+Niger	562	NER
+Nigeria	566	NGA 	
+Saint Helena	654	SHN 	
+Senegal	686	SEN
+Sierra Leone	694	SLE
+Togo	768	TGO
+Americas	019		
+Latin America and the Caribbean	419		
+Caribbean	029		
+Anguilla	660	AIA 
+Antigua and Barbuda	028	ATG 
+Aruba	533	ABW 
+Bahamas	044	BHS 
+Barbados	052	BRB 
+Bonaire, Sint Eustatius and Saba	535	BES 
+British Virgin Islands	092	VGB 
+Cayman Islands	136	CYM 	
+Cuba	192	CUB 
+Curaçao	531	CUW 
+Dominica	212	DMA 
+Dominican Republic	214	DOM 
+Grenada	308	GRD 
+Guadeloupe	312	GLP 	
+Haiti	332	HTI
+Jamaica	388	JAM 
+Martinique	474	MTQ 	
+Montserrat	500	MSR 
+Puerto Rico	630	PRI 
+Saint Barthélemy	652	BLM 	
+Saint Kitts and Nevis	659	KNA 
+Saint Lucia	662	LCA 
+Saint Martin (French Part)	663	MAF 	
+Saint Vincent and the Grenadines	670	VCT 
+Sint Maarten (Dutch part)	534	SXM 
+Trinidad and Tobago	780	TTO 
+Turks and Caicos Islands	796	TCA 	
+United States Virgin Islands	850	VIR 
+Central America	013		
+Belize	084	BLZ 
+Costa Rica	188	CRI 	
+El Salvador	222	SLV 	
+Guatemala	320	GTM 	
+Honduras	340	HND 	
+Mexico	484	MEX 	
+Nicaragua	558	NIC 	
+Panama	591	PAN 	
+South America	005		
+Argentina	032	ARG 	
+Bolivia (Plurinational State of)	068	BOL
+Bouvet Island	074	BVT 	
+Brazil	076	BRA 	
+Chile	152	CHL 	
+Colombia	170	COL 	
+Ecuador	218	ECU 	
+Falkland Islands (Malvinas)	238	FLK 	
+French Guiana	254	GUF 	
+Guyana	328	GUY 
+Paraguay	600	PRY
+Peru	604	PER 	
+South Georgia and the South Sandwich Islands	239	SGS 	
+Suriname	740	SUR 
+Uruguay	858	URY 	
+Venezuela (Bolivarian Republic of)	862	VEN 	
+Northern America	021		
+Bermuda	060	BMU 	
+Canada	124	CAN 	
+Greenland	304	GRL 	
+Saint Pierre and Miquelon	666	SPM 	
+United States of America	840	USA 	
+Antarctica	010	ATA 	
+Asia	142		
+Central Asia	143		
+Kazakhstan	398	KAZ
+Kyrgyzstan	417	KGZ
+Tajikistan	762	TJK
+Turkmenistan	795	TKM
+Uzbekistan	860	UZB
+Eastern Asia	030		
+China	156	CHN 	
+China, Hong Kong Special Administrative Region	344	HKG 	
+China, Macao Special Administrative Region	446	MAC 	
+Democratic People's Republic of Korea	408	PRK 	
+Japan	392	JPN 	
+Mongolia	496	MNG
+Republic of Korea	410	KOR 	
+South-eastern Asia	035		
+Brunei Darussalam	096	BRN 	
+Cambodia	116	KHM
+Indonesia	360	IDN 	
+Lao People's Democratic Republic	418	LAO
+Malaysia	458	MYS 	
+Myanmar	104	MMR
+Philippines	608	PHL 	
+Singapore	702	SGP 
+Thailand	764	THA 	
+Timor-Leste	626	TLS
+Viet Nam	704	VNM 	
+Southern Asia	034		
+Afghanistan	004	AFG
+Bangladesh	050	BGD
+Bhutan	064	BTN
+India	356	IND 	
+Iran (Islamic Republic of)	364	IRN 	
+Maldives	462	MDV 
+Nepal	524	NPL
+Pakistan	586	PAK 	
+Sri Lanka	144	LKA 	
+Western Asia	145		
+Armenia	051	ARM
+Azerbaijan	031	AZE
+Bahrain	048	BHR 	
+Cyprus	196	CYP 	
+Georgia	268	GEO 	
+Iraq	368	IRQ 	
+Israel	376	ISR 	
+Jordan	400	JOR 	
+Kuwait	414	KWT 	
+Lebanon	422	LBN 	
+Oman	512	OMN 	
+Qatar	634	QAT 	
+Saudi Arabia	682	SAU 	
+State of Palestine	275	PSE 	
+Syrian Arab Republic	760	SYR 	
+Türkiye	792	TUR 	
+United Arab Emirates	784	ARE 	
+Yemen	887	YEM
+Europe	150		
+Eastern Europe	151		
+Belarus	112	BLR 	
+Bulgaria	100	BGR 	
+Czechia	203	CZE 	
+Hungary	348	HUN 	
+Poland	616	POL 	
+Republic of Moldova	498	MDA
+Romania	642	ROU 	
+Russian Federation	643	RUS 	
+Slovakia	703	SVK 	
+Ukraine	804	UKR 	
+Northern Europe	154		
+Åland Islands	248	ALA 	
+Channel Islands	830		
+Guernsey	831	GGY 	
+Jersey	832	JEY 	
+Sark	680		
+Denmark	208	DNK 	
+Estonia	233	EST 	
+Faroe Islands	234	FRO 	
+Finland	246	FIN 	
+Iceland	352	ISL 	
+Ireland	372	IRL 	
+Isle of Man	833	IMN 	
+Latvia	428	LVA 	
+Lithuania	440	LTU 	
+Norway	578	NOR 	
+Svalbard and Jan Mayen Islands	744	SJM 	
+Sweden	752	SWE 	
+United Kingdom of Great Britain and Northern Ireland	826	GBR 	
+Southern Europe	039		
+Albania	008	ALB 	
+Andorra	020	AND 	
+Bosnia and Herzegovina	070	BIH 	
+Croatia	191	HRV 	
+Gibraltar	292	GIB 	
+Greece	300	GRC 	
+Holy See	336	VAT 	
+Italy	380	ITA 	
+Malta	470	MLT 	
+Montenegro	499	MNE 	
+North Macedonia	807	MKD
+Portugal	620	PRT 	
+San Marino	674	SMR 	
+Serbia	688	SRB 	
+Slovenia	705	SVN 	
+Spain	724	ESP 	
+Western Europe	155		
+Austria	040	AUT 	
+Belgium	056	BEL 	
+France	250	FRA 	
+Germany	276	DEU 	
+Liechtenstein	438	LIE 	
+Luxembourg	442	LUX 	
+Monaco	492	MCO 	
+Netherlands	528	NLD 	
+Switzerland	756	CHE 	
+Oceania	009		
+Australia and New Zealand	053		
+Australia	036	AUS 	
+Christmas Island	162	CXR 	
+Cocos (Keeling) Islands	166	CCK 	
+Heard Island and McDonald Islands	334	HMD 	
+New Zealand	554	NZL 	
+Norfolk Island	574	NFK 	
+Melanesia	054		
+Fiji	242	FJI 
+New Caledonia	540	NCL 
+Papua New Guinea	598	PNG 
+Solomon Islands	090	SLB
+Vanuatu	548	VUT 
+Micronesia	057		
+Guam	316	GUM 
+Kiribati	296	KIR
+Marshall Islands	584	MHL 
+Micronesia (Federated States of)	583	FSM 
+Nauru	520	NRU 
+Northern Mariana Islands	580	MNP 
+Palau	585	PLW 
+United States Minor Outlying Islands	581	UMI 	
+Polynesia	061		
+American Samoa	016	ASM 
+Cook Islands	184	COK 
+French Polynesia	258	PYF 
+Niue	570	NIU 
+Pitcairn	612	PCN 	
+Samoa	882	WSM 
+Tokelau	772	TKL 	
+Tonga	776	TON 
+Tuvalu	798	TUV
+Wallis and Futuna Islands	876	WLF 	

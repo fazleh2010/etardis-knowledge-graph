@@ -1,0 +1,55 @@
+version: "3.5"
+
+services:
+    etardis-graph:
+        build: 
+            context: ./src/crawling
+            args:
+                - DB_HTTP_PORT
+        ports:
+            - "${DB_HTTP_PORT}:${DB_HTTP_PORT}"
+            - "${DB_BOLT_PORT}:${DB_BOLT_PORT}"
+        volumes:
+            - ./data/neo4j_data:/data
+        environment:
+            - DB_HTTP_PORT
+            - DB_BOLT_PORT
+            - NEO4J_dbms_memory_pagecache_size
+            - NEO4J_AUTH=${NEO4J_USER}/${NEO4J_PASSWD}
+        restart: on-failure
+        networks:
+            - etardis-network
+
+    etardis-api:
+        build:
+            context: ./src/api
+            dockerfile: Dockerfile.prod            
+            args:
+                - API_HTTP_PORT
+                - DB_HTTP_PORT
+        depends_on:
+            - etardis-graph
+        links:
+            - etardis-graph
+        ports:
+            - "${API_HTTP_PORT}:${API_HTTP_PORT}"
+        volumes:
+            - ./data:/data
+        expose:
+            - "${API_HTTP_PORT}"
+        environment:
+            - NEO4J_URL=etardis-graph
+            - FLASK_APP
+            - FLASK_ENV
+            - FLASK_DEBUG
+            - DB_BOLT_PORT
+            - NEO4J_USER
+            - NEO4J_PASSWD
+        restart: on-failure
+        networks:
+            - etardis-network
+
+networks:
+    etardis-network:
+
+
