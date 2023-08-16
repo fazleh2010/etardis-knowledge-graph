@@ -1,20 +1,14 @@
-version: "3.5"
+version: '3.5'
 
 services:
     etardis-graph:
-        build:
-            context: ./src/crawling
-            args:
-                - DB_HTTP_PORT
+        build: ./src/crawling
         ports:
-            - "${DB_HTTP_PORT}:${DB_HTTP_PORT}"
-            - "${DB_BOLT_PORT}:${DB_BOLT_PORT}"
+            - "7474:7474"
+            - "7687:7687"
         volumes:
             - ./data/neo4j_data:/data
         environment:
-            - DB_HTTP_PORT
-            - DB_BOLT_PORT
-            - NEO4J_dbms_memory_pagecache_size
-            - NEO4J_AUTH=${NEO4J_USER}/${NEO4J_PASSWD}
-        restart: on-failure        
-
+            NEO4J_dbms_memory_pagecache_size: 4G
+            NEO4J_AUTH: neo4j/password
+        restart: on-failure
