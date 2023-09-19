@@ -1,5 +1,5 @@
 # eTaRDiS-knowledge-graph
-[<img src="https://github.com/fazleh2010/etardis-knowledge-graph/blob/main/eTarDiS.pdf" width="50%">](https://www.youtube.com/watch?v=okoJTP2MTDc&t=65s)
+[<img src="[https://github.com/fazleh2010/etardis-knowledge-graph/blob/main/eTarDiS.pdf](https://github.com/fazleh2010/etardis-knowledge-graph/blob/main/eTarDiS.pdf)" width="50%">](https://www.youtube.com/watch?v=okoJTP2MTDc&t=65s)
 
 ## eTaRDiS-knowledge-graph
 
