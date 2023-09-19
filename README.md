@@ -1,3 +1,6 @@
+# demo
+[<img src="https://github.com/fazleh2010/term-a-llod-demo/blob/master/term-a-llod.png" width="50%">](https://www.youtube.com/watch?v=okoJTP2MTDc&t=65s)
+
 # eTaRDiS-knowledge-graph
 
 This repository contains scripts to build and maintain the eTaRDiS knowledge graph based on Neo4j graph database.
