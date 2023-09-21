@@ -1,5 +1,10 @@
-# eTaRDiS-knowledge-graph
+# eTaRDiS-knowledge-graph (short demo)
 [<img src="https://github.com/fazleh2010/etardis-knowledge-graph/blob/main/eTaRDis.png" width="50%">](https://youtu.be/MoH17b04b1U)
+
+# eTaRDiS-knowledge-graph (long demo)
+[<img src="https://github.com/fazleh2010/etardis-knowledge-graph/blob/main/eTaRDis.png" width="50%">](https://youtu.be/okoJTP2MTDc?si=aanK-qMVm6klIjPF)
+
+https://www.youtube.com/watch?v=okoJTP2MTDc&ab_channel=MohammadFazlehElahi
 
 ## eTaRDiS-knowledge-graph
 
